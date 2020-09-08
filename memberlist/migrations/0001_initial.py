@@ -20,7 +20,7 @@ class Migration(migrations.Migration):
                 ('contact', models.CharField(max_length=15)),
             ],
             options={
-                'db_table': 'employee',
+                'db_table': 'member',
             },
         ),
     ]

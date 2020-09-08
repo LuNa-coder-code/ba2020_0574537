@@ -5,7 +5,7 @@
 {% block content %}
 <div class="col-md-12">
     <h4>List of Members</h4>
- <form method="POST" class="post-form" action="/update/{{employee.id}}">  
+ <form method="POST" class="post-form" action="/update/{{member.id}}">
    {% csrf_token %}  
   <div class="container">  
  <br>  
@@ -18,26 +18,14 @@
   <div class="form-group row">  
   <label class="col-sm-2 col-form-label">Member Id:</label>
   <div class="col-sm-4">  
-   <input type="text" class="form-control" name="id" id="id_id" required maxlength="20" value="{{ employee.id }}"/>  
+   <input type="text" class="form-control" name="id" id="id_id" required maxlength="20" value="{{ member.id }}"/>
   </div>  
    </div>  
    <div class="form-group row">  
   <label class="col-sm-2 col-form-label">Member Name:</label>
   <div class="col-sm-4">  
-   <input type="text" class="form-control" name="name" id="id_name" required maxlength="100" value="{{ employee.name }}" />  
-  </div>  
-   </div>  
-  <div class="form-group row">  
-  <label class="col-sm-2 col-form-label">Member Email:</label>
-  <div class="col-sm-4">  
-   <input type="email" class="form-control" name="email" id="id_email" required maxlength="254" value="{{ employee.email }}" />  
-  </div>  
-   </div>  
-  <div class="form-group row">  
-  <label class="col-sm-2 col-form-label">Member Contact:</label>
-  <div class="col-sm-4">  
-   <input type="text" class="form-control" name="contact" id="id_contact" required maxlength="15" value="{{ employee.contact }}" />  
-  </div>  
+   <input type="text" class="form-control" name="name" id="id_name" required maxlength="100" value="{{ member.name }}" />
+  </div>
    </div>  
   <div class="form-group row">  
   <label class="col-sm-1 col-form-label"></label>  
