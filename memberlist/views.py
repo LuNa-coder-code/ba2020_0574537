@@ -2,9 +2,6 @@
 from django.shortcuts import render, redirect
 from memberlist.forms import MemberForm
 from memberlist.models import Member
-from django.shortcuts import render, redirect
-from memberlist.forms import MemberForm
-from memberlist.models import Member
 
 # Create your views here.
 def addnew(request):

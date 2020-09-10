@@ -1,0 +1,13 @@
+## google fonts
+```html
+<link href="//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+```css
+ .page-header h2 a {
+    color: #00c2b2;
+    font-family: 'Lobster';
+}
+
+ .page-header h2 a {
+    color: #00c2b2;
+    font-family: 'Lobster';
+}
